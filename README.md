@@ -1,0 +1,2 @@
+# CV_Soccer_prediction
+soccer_player_shootout_prediction  by classification image
