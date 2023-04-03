@@ -9,21 +9,39 @@ soccer_player_shootout_prediction  by classification image
 
 데이터 구조
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
 |ㅡCV
+
 |ㅡㅡ Landmark
+
 |     ㅡfail
+
 |     ㅡsuc
+
 |ㅡㅡ Landmark_ch1
+
 |     ㅡgrayscale96
+
 |     ㅡgrayscale160
+
 |     ㅡgrayscale224
+
 |
+
 |ㅡㅡ Landmark_image_sum
+
 |     ㅡsum2
+
 |     ㅡsum96
+
 |     ㅡsum224
+
 |ㅡㅡ raw
+
 |     ㅡfail
+
 |     ㅡsuc
+
 |
+
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
