@@ -11,20 +11,19 @@ soccer_player_shootout_prediction  by classification image
 
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ  
 |ㅡCV  
-|ㅡㅡ Landmark  
-|     ㅡfail  
-|     ㅡsuc  
+|ㅡㅡLandmark  
+|ㅡㅡㅡfail  
+|ㅡㅡㅡsuc  
 |ㅡㅡ Landmark_ch1  
-|     ㅡgrayscale96  
-|     ㅡgrayscale160  
-|     ㅡgrayscale224  
+|ㅡㅡㅡgrayscale96  
+|ㅡㅡㅡgrayscale160  
+|ㅡㅡㅡgrayscale224  
 |  
-|ㅡㅡ Landmark_image_sum  
-|     ㅡsum2  
-|     ㅡsum96  
-|     ㅡsum224  
+|ㅡㅡLandmark_image_sum  
+|ㅡㅡㅡsum2  
+|ㅡㅡㅡsum96  
+|ㅡㅡㅡsum224  
 |ㅡㅡ raw  
-|     ㅡfail  
-|     ㅡsuc  
-|  
+|ㅡㅡㅡfail  
+|ㅡㅡㅡsuc  
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ  
