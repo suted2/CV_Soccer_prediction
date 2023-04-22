@@ -201,15 +201,13 @@ soccer_player_shootout_prediction  by classification image
     
     1️⃣ Inception Resnet ( = Facenet)     
     
-    
+    ![result1](https://github.com/suted2/CV_Soccer_prediction/blob/main/resource/1.png)
     
     
     다음과 같은 결과가 나온다. 특정 시점에서 과적합이 진행되는 것을 확인 할 수 있다. 현재 모델은 load해서 사용하고 있기에 이를 해소하기 위해서 데이터의 복잡도를 증가시켜야 한다고 판단하여 추가적인 절차가 필요하다고 생각했다. 
     
     
     accuarcy 는 73% 를 기록했고 좀 더 자세한 수치 파악을 위해 
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b3b038a8-3a3e-4ea9-92b7-8906c64873e8/Untitled.png)
     
     metrics를 통해 진행을 했다.  라벨 0 ‘실패’ 의 recall 값이 유독 낮은 것을 확인 할 수 있었다. 
     
@@ -222,10 +220,6 @@ soccer_player_shootout_prediction  by classification image
         
         생각대로 더 낮은 결과를 보여준다. 
         
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7409defa-f039-4317-bf49-04bad8971a3e/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/63719cf3-b630-46d9-94e0-1cf1e772860d/Untitled.png)
     
     수치가 recall에서는 치중되어있다.  recall에서의 수치.
     
