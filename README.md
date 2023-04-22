@@ -235,7 +235,7 @@ soccer_player_shootout_prediction  by classification image
     
     
     
-
+![reslut](https://github.com/suted2/CV_Soccer_prediction/blob/main/resource/ff1f279f-ad24-441b-a324-e17266c5f3d9__%ED%8C%80_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_PK_%EC%84%B1%EA%B3%B5%EB%A5%A0_%EC%98%88%EC%B8%A1_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_by_AI_.pdf)
 
 
 
