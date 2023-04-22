@@ -67,15 +67,7 @@ soccer_player_shootout_prediction  by classification image
     <aside>
     💡 캡쳐는 화질이 이미지 모델에 영향을 미치기에 1080이상의 영상에서 캡쳐
     
-    </aside>
     
-     
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b060595c-97a6-47c4-9c14-82eb610ef2fb/Untitled.png)
-    
-    - 총 얻은 결과 데이터
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/267dd2bb-985f-44ca-801c-7b8506947114/Untitled.png)
     
     라벨링을 바로 직접 진행하며 시행하였다. 
     
@@ -99,15 +91,12 @@ soccer_player_shootout_prediction  by classification image
     
     데이터 복잡도를 낮춘 데이터 셋 역시 미리 준비하였다. 
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7ddece2f-5dc7-47ee-bd31-164a5475c40f/Untitled.png)
-    
     3️⃣ Augmentation
     
     수집한 data의 절대적인 숫자가 부족하기에 변경을 진행하였다. 
     
     이때 사람의 얼굴을 근간으로 진행하기에 horizon filp이 아닌 vertical filp으로 좌우 반전을 주고 , 사람의 목이 의학상으로 40도 까지 움직일 수 있기에  Rotation 역시 -40 ~ 40 안에서 변경시켰다.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1b371a24-ff42-4ec2-a325-2ac902ef6b61/Untitled.png)
     
     4️⃣ zero-centering 
     
@@ -115,9 +104,6 @@ soccer_player_shootout_prediction  by classification image
     
     이를 방지하고자 train_dataset의 평균으로 전체 data의 평균픽셀을 0으로 이동시켜주는 데이터를 만든다.
     
-    
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/12d454e5-e9e0-4b01-a3c9-377b74712a0f/Untitled.png)
     
     
 ## 🔎 Modeling I
@@ -213,17 +199,15 @@ soccer_player_shootout_prediction  by classification image
     
     - 모델 결과 확인
     
-    1️⃣ Inception Resnet ( = Facenet) 
+    1️⃣ Inception Resnet ( = Facenet)     
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/69020bbf-2945-4fd2-825d-a19fe713a433/Untitled.png)
+    ![result1](https://github.com/suted2/CV_Soccer_prediction/blob/main/resource/1.png)
+    
     
     다음과 같은 결과가 나온다. 특정 시점에서 과적합이 진행되는 것을 확인 할 수 있다. 현재 모델은 load해서 사용하고 있기에 이를 해소하기 위해서 데이터의 복잡도를 증가시켜야 한다고 판단하여 추가적인 절차가 필요하다고 생각했다. 
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/66d52956-56b6-4e8e-9f0f-1c1c7c5463b3/Untitled.png)
     
     accuarcy 는 73% 를 기록했고 좀 더 자세한 수치 파악을 위해 
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b3b038a8-3a3e-4ea9-92b7-8906c64873e8/Untitled.png)
     
     metrics를 통해 진행을 했다.  라벨 0 ‘실패’ 의 recall 값이 유독 낮은 것을 확인 할 수 있었다. 
     
@@ -236,10 +220,6 @@ soccer_player_shootout_prediction  by classification image
         
         생각대로 더 낮은 결과를 보여준다. 
         
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7409defa-f039-4317-bf49-04bad8971a3e/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/63719cf3-b630-46d9-94e0-1cf1e772860d/Untitled.png)
     
     수치가 recall에서는 치중되어있다.  recall에서의 수치.
     
